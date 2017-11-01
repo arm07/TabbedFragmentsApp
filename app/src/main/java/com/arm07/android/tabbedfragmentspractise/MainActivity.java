@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity  {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
 
-        tabLayout.addTab(tabLayout.newTab().setText("TEXT"));
+        tabLayout.addTab(tabLayout.newTab().setText("COURSES"));
         tabLayout.addTab(tabLayout.newTab().setText("IMAGE"));
         tabLayout.addTab(tabLayout.newTab().setText("RECORD"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
